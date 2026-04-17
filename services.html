@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Services offered by Jit Patel Web Development - Web Dev, UI/UX, Backend, E-Commerce and more." />
+  <title>Services | Jit Patel Web Development</title>
+  <link rel="icon" type="image/x-icon" href="LOGO.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div id="preloader">
+  <div class="preloader-inner">
+    <div class="preloader-logo">JP</div>
+    <div class="preloader-bar"><span></span></div>
+    <p class="preloader-text">Loading Services...</p>
+  </div>
+</div>
+
+<nav class="navbar" id="navbar">
+  <div class="nav-container">
+    <a href="index.html" class="nav-logo"><span class="logo-bracket">&lt;</span>JP<span class="logo-bracket">/&gt;</span></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html" class="nav-link">Home</a></li>
+      <li><a href="services.html" class="nav-link active">Services</a></li>
+      <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+      <li><a href="contact.html" class="nav-link">Contact</a></li>
+    </ul>
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+      <span class="theme-icon">🌙</span>
+    </button>
+    <a href="contact.html" class="nav-cta">Let's Talk</a>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- PAGE HERO -->
+<section class="page-hero">
+  <canvas id="heroCanvas"></canvas>
+  <div class="hero-grid-overlay"></div>
+  <div class="page-hero-content">
+    <div class="section-tag">What We Do</div>
+    <h1 class="hero-title"><span class="gradient-text">Services</span> We Offer</h1>
+    <p>End-to-end digital solutions — beautifully crafted and technically bulletproof.</p>
+  </div>
+</section>
+
+<!-- SERVICES GRID -->
+<section class="services-section section-padding">
+  <div class="container">
+    <div class="services-grid">
+
+      <div class="service-card glass-card reveal-item">
+        <div class="service-icon-wrap">
+          <div class="service-icon">🌐</div>
+        </div>
+        <h3>Web Development</h3>
+        <p>Full-stack websites and web applications built with React, Node.js, and modern frameworks. Scalable, performant, and production-ready.</p>
+        <ul class="service-list">
+          <li>Custom Web Applications</li>
+          <li>Landing Pages & Websites</li>
+          <li>Progressive Web Apps (PWA)</li>
+          <li>SPA & MPA Architecture</li>
+        </ul>
+        <div class="service-tag">Most Popular</div>
+      </div>
+
+      <div class="service-card glass-card reveal-item">
+        <div class="service-icon-wrap">
+          <div class="service-icon">🎨</div>
+        </div>
+        <h3>UI/UX Design</h3>
+        <p>Cinematic interfaces that blend beauty with usability. From wireframes to interactive prototypes — every pixel has purpose.</p>
+        <ul class="service-list">
+          <li>User Interface Design</li>
+          <li>Wireframing & Prototyping</li>
+          <li>Design Systems</li>
+          <li>Motion & Micro-interactions</li>
+        </ul>
+      </div>
+
+      <div class="service-card glass-card reveal-item">
+        <div class="service-icon-wrap">
+          <div class="service-icon">⚙️</div>
+        </div>
+        <h3>Backend Development</h3>
+        <p>Robust APIs and server-side systems using Node.js, Express, MySQL, and cloud infrastructure built for scale and security.</p>
+        <ul class="service-list">
+          <li>REST & GraphQL APIs</li>
+          <li>Database Architecture</li>
+          <li>Authentication Systems</li>
+          <li>Cloud Deployment (AWS/GCP)</li>
+        </ul>
+      </div>
+
+      <div class="service-card glass-card reveal-item">
+        <div class="service-icon-wrap">
+          <div class="service-icon">🛒</div>
+        </div>
+        <h3>E-Commerce Solutions</h3>
+        <p>Custom online stores with payment integration, inventory management, and conversion-optimized UX that drives real revenue.</p>
+        <ul class="service-list">
+          <li>Custom E-Commerce Platforms</li>
+          <li>Payment Gateway Integration</li>
+          <li>Inventory Management</li>
+          <li>Analytics & Reporting</li>
+        </ul>
+      </div>
+
+      <div class="service-card glass-card reveal-item">
+        <div class="service-icon-wrap">
+          <div class="service-icon">📱</div>
+        </div>
+        <h3>Mobile-First Development</h3>
+        <p>Responsive and mobile-optimized experiences that look and perform flawlessly on every device — from phones to 4K displays.</p>
+        <ul class="service-list">
+          <li>Responsive Web Design</li>
+          <li>Touch-Optimized Interactions</li>
+          <li>Cross-Browser Compatibility</li>
+          <li>Performance Optimization</li>
+        </ul>
+      </div>
+
+      <div class="service-card glass-card reveal-item">
+        <div class="service-icon-wrap">
+          <div class="service-icon">🔍</div>
+        </div>
+        <h3>SEO & Performance</h3>
+        <p>Technical SEO, Core Web Vitals optimization, and performance tuning that boosts search rankings and user retention.</p>
+        <ul class="service-list">
+          <li>Technical SEO Audit</li>
+          <li>Core Web Vitals</li>
+          <li>Speed Optimization</li>
+          <li>Schema Markup</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- TECH STACK -->
+<section class="techstack section-padding">
+  <div class="container">
+    <div class="section-header centered">
+      <div class="section-tag">Technologies</div>
+      <h2 class="section-title">Our <span class="gradient-text">Tech Stack</span></h2>
+    </div>
+    <div class="tech-grid">
+      <div class="tech-pill reveal-item">React.js</div>
+      <div class="tech-pill reveal-item">Node.js</div>
+      <div class="tech-pill reveal-item">Express.js</div>
+      <div class="tech-pill reveal-item">MySQL</div>
+      <div class="tech-pill reveal-item">MongoDB</div>
+      <div class="tech-pill reveal-item">JavaScript</div>
+      <div class="tech-pill reveal-item">TypeScript</div>
+      <div class="tech-pill reveal-item">HTML5 / CSS3</div>
+      <div class="tech-pill reveal-item">AWS</div>
+      <div class="tech-pill reveal-item">Docker</div>
+      <div class="tech-pill reveal-item">Git / GitHub</div>
+      <div class="tech-pill reveal-item">Figma</div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section">
+  <div class="cta-bg-fx"></div>
+  <div class="container">
+    <div class="cta-content">
+      <h2>Ready to Start Your <span class="gradient-text">Project?</span></h2>
+      <p>Tell us your idea and we'll craft the perfect solution for you.</p>
+      <a href="contact.html" class="btn btn-primary">Get a Free Quote</a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="nav-logo"><span class="logo-bracket">&lt;</span>JP<span class="logo-bracket">/&gt;</span></a>
+        <p>Premium web development studio delivering cutting-edge digital solutions.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <p>Owner: <strong>Jit Patel</strong></p>
+        <a href="tel:9687991925">📞 +91 9687991925</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Jit Patel Web Development. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
